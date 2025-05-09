@@ -3,44 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Details</title>
     <style>
         table {
+            width: 50%;
             background-color: yellow;
             border-collapse: collapse;
-            width: 50%;
-            margin: 30px auto;
         }
         th, td {
             border: 1px solid black;
-            padding: 6px;
+            padding: 8px;
             text-align: center;
         }
-        th {
-            background-color: #f2f2f; /* Optional: This adds a light gray color to headers */
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
         }
     </style>
+    <title>Student Table</title>
 </head>
 <body>
 
-    <table border = "1">
-        <caption>Student Details</caption>
+<table>
+    <caption>Student Details</caption>
+    <thead>
         <tr>
             <th>NAME</th>
             <th>AGE</th>
             <th>BRANCH</th>
         </tr>
+    </thead>
+    <tbody>
         <tr>
             <td>Shaw</td>
             <td>20</td>
-            <td>CSE</td>
+            <td>IMCA</td>
         </tr>
         <tr>
             <td>Adil</td>
-            <td>21</td>
+            <td>22</td>
             <td>ECE</td>
         </tr>
-    </table>
+    </tbody>
+</table>
 
 </body>
 </html>
